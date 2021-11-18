@@ -14,7 +14,7 @@
               min-width="80"
               src="Words4All.png"
               width="300"
-              style="z-index: 99999"gi
+              style="z-index: 99999"
           />
         </a>
       </div>
@@ -36,7 +36,6 @@
       </div>
     </v-app-bar>
     <div class="secondBar">
-
     </div>
 
     <v-main>
