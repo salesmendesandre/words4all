@@ -14,7 +14,7 @@
 
           <v-img
               height="250"
-              src="/andre.png"
+              src="/bea.jpeg"
           ></v-img>
 
           <v-card-title>Beatriz María Bermejo Gíl</v-card-title>
@@ -44,7 +44,7 @@
 
           <v-img
               height="250"
-              src="/andre.png"
+              src="/fatima.jpeg"
           ></v-img>
 
           <v-card-title>Fátima Pérez Robledo</v-card-title>
@@ -126,7 +126,7 @@
 
           <v-img
               height="250"
-              src="/andre.png"
+              src="/hector.jpeg"
           ></v-img>
 
           <v-card-title>Héctor Sánchez San Blas</v-card-title>
