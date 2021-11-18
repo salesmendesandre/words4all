@@ -6,20 +6,23 @@
         height="80"
     >
       <div class="d-flex align-center">
-        <v-img
-            alt="Vuetify Name"
-            class="shrink mt-1"
-            contain
-            min-width="80"
-            src="Words4All.png"
-            width="300"
-            style="z-index: 99999"
-        />
+        <a @click="$router.push({name:'Home'})">
+          <v-img
+              alt="Vuetify Name"
+              class="shrink mt-1"
+              contain
+              min-width="80"
+              src="Words4All.png"
+              width="300"
+              style="z-index: 99999"gi
+          />
+        </a>
       </div>
 
       <v-spacer></v-spacer>
 
       <div class="d-flex align-center">
+        <a href="https://hack4edu.org/">
         <v-img
             alt="Vuetify Name"
             class="shrink mt-1 hidden-sm-and-down"
@@ -27,7 +30,9 @@
             min-width="100"
             src="/hack4edu.png"
             width="300"
+            href="hack4edu.com"
         />
+        </a>
       </div>
     </v-app-bar>
     <div class="secondBar">
