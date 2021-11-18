@@ -17,6 +17,9 @@
 
           <div style="margin-top: 50px">
             <v-btn block color="primary" rounded large @click="$router.push({name:'Categories'})"> Empezar a aprender</v-btn>
+            </div>
+            <div style="margin-top: 10px">
+            <v-btn block color="primary" rounded large @click="$router.push({name:'Team'})"> Equipo</v-btn>
           </div>
 
         </div>
