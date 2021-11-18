@@ -182,7 +182,7 @@ const categories = [
             }
         ]
     },
-e]
+]
 
 
 module.exports = categories;
