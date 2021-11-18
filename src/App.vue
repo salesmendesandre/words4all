@@ -1,41 +1,38 @@
 <template>
   <v-app>
     <v-app-bar
-      app
-      color="primary"
-      dark
+        app
+        color="white"
+        height="80"
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
+            alt="Vuetify Name"
+            class="shrink mt-1"
+            contain
+            min-width="80"
+            src="Words4All.png"
+            width="300"
+            style="z-index: 99999"
         />
       </div>
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      <div class="d-flex align-center">
+        <v-img
+            alt="Vuetify Name"
+            class="shrink mt-1 hidden-sm-and-down"
+            contain
+            min-width="100"
+            src="/hack4edu.png"
+            width="300"
+        />
+      </div>
     </v-app-bar>
+    <div class="secondBar">
+
+    </div>
 
     <v-main>
       <router-view/>
@@ -53,3 +50,12 @@ export default {
   }),
 };
 </script>
+
+<style>
+.secondBar{
+  width: 100vw;
+  height: 15px;
+  background-color: #D35B31;
+  margin-top: 80px;
+}
+</style>
