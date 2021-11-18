@@ -20,8 +20,8 @@
 
           <v-card-title>{{category.title}}</v-card-title>
 
-          <v-card-text>
-            <div>  {{category.desc}}</div>
+          <v-card-text style="min-height: 200px">
+            <div style="text-align: justify">  {{category.desc}}</div>
           </v-card-text>
 
           <v-divider class="mx-4"></v-divider>

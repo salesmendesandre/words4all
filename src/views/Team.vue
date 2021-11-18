@@ -3,7 +3,7 @@
     <h1 style="margin-top: -70px">Equipo</h1>
     <v-row>
       <v-col cols="12" md="3">
-        <v-card style="min-height: 500px">
+        <v-card style="min-height: 550px">
           <template slot="progress">
             <v-progress-linear
                 color="deep-purple"
@@ -33,7 +33,7 @@
       </v-col>
 
       <v-col cols="12" md="3">
-        <v-card style="min-height: 500px">
+        <v-card style="min-height: 550px">
           <template slot="progress">
             <v-progress-linear
                 color="deep-purple"
@@ -53,16 +53,16 @@
           </v-card-text>
           <v-card-text>
 
-            <h4>- XXXXXXX</h4>
-            <h4>- XXXXXXX</h4>
-            <h4>- XXXXXXX</h4>
+            <h4>- Grado en Fisioterapía</h4>
+            <h4>- Master en Fisioterapia Neurologica en el Paciente Adulto</h4>
+            <h4>- Doctorado en Salud, Discapacidad, Dependencia y Bienestar</h4>
           </v-card-text>
 
         </v-card>
       </v-col>
 
       <v-col cols="12" md="3">
-        <v-card style="min-height: 500px">
+        <v-card style="min-height: 550px">
           <template slot="progress">
             <v-progress-linear
                 color="deep-purple"
@@ -73,7 +73,7 @@
 
           <v-img
               height="250"
-              src="/andre.png"
+              src="/begona.jpeg"
           ></v-img>
 
           <v-card-title>Begoña Hernández De La Iglesia</v-card-title>
@@ -88,7 +88,7 @@
       </v-col>
 
       <v-col cols="12" md="3">
-        <v-card style="min-height: 500px">
+        <v-card style="min-height: 550px">
           <template slot="progress">
             <v-progress-linear
                 color="deep-purple"
@@ -99,7 +99,7 @@
 
           <v-img
               height="250"
-              src="/andre.png"
+              src="/lucia.jpeg"
           ></v-img>
 
           <v-card-title>Lucia Álvarez Boente</v-card-title>
@@ -115,7 +115,7 @@
 
 
       <v-col cols="12" md="3" offset-md="3">
-        <v-card style="min-height: 500px">
+        <v-card style="min-height: 550px">
           <template slot="progress">
             <v-progress-linear
                 color="deep-purple"
@@ -143,7 +143,7 @@
       </v-col>
 
       <v-col cols="12" md="3" >
-        <v-card style="min-height: 500px">
+        <v-card style="min-height: 550px">
           <template slot="progress">
             <v-progress-linear
                 color="deep-purple"
