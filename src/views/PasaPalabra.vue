@@ -87,9 +87,9 @@
           <video  ref="camera" width="100%" height="100%" autoplay class="video-element" style="z-index: 999999"></video>
         </div>
 
-        <img src="/img/thinking.svg" class="img-center" v-if="!dialogTotals && !showCamera">
-        <img src="/img/end.svg" class="img-center" v-if="dialogTotals && pendingQuestions>0">
-        <img src="/img/endGood.svg" class="img-center" v-if="dialogTotals && pendingQuestions==0">
+        <img src="/thinking.svg" class="img-center" v-if="!dialogTotals && !showCamera">
+        <img src="/end.svg" class="img-center" v-if="dialogTotals && pendingQuestions>0">
+        <img src="/endGood.svg" class="img-center" v-if="dialogTotals && pendingQuestions==0">
 
         <div class="circle-container">
           <ul class="circle">
@@ -144,10 +144,12 @@
         </div>
         <!--Input Mode-->
         <div v-else>
+          <div v-if="hasEnableListenning">
           <v-text-field label="Respuesta" v-model="answer" v-on:keyup.enter="checkAnswer"></v-text-field>
           <v-btn block color="primary" rounded large @click="checkAnswer">Enviar</v-btn>
           <br>
           <v-btn block color="primary" rounded large @click="nextAnswer">Pasapalabra</v-btn>
+          </div>
         </div>
       </v-col>
     </v-row>
