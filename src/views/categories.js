@@ -914,7 +914,7 @@ const categories = [
     {
         id: 5,
         title: 'Inglés',
-        desc: '...',
+        desc: '"Head shoulder knees and toes knees and toes" (8) ¡Perdona! Me pillabas justo practicando lo aprendido en este rosco ñ ¿A ti también te interesa? ¡Pues adelante y pon a prueba tu nivel de inglés!',
         img: '/roscos/ingles.jpeg',
         questions: [
             {text0: 'Empieza por la letra A', character:'A',	status: 'unsolved', answer: 'After',  	         text:'¿Cómo se dice Después en inglés?'},

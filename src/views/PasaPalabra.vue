@@ -549,6 +549,25 @@ video{
 @media only screen
 and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3) {
+
+  .video-container {
+    width: 60vw;
+    height:  60vw;
+    border-radius: 50%;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+    position: absolute;
+    left: 19vw;
+    transform: translate(0vw,-11vw);
+    border: white solid 5px !important;
+  }
+
+  video{
+    width: 100vw;
+    height:  100vw;
+    transform: translate(-25%,-25%);
+    left: 2px;
+  }
+
   .img-center {
     width: 50vw;
     position: absolute;
